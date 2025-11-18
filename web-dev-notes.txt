@@ -1,0 +1,190 @@
+=================================================
+Date: 17/11/2025
+=================================================
+=> Web Development
+Full Stack => MERN Stack
+HTML
+CSS
+Project-01
+Bootstrap
+Project-02
+Tailwind CSS
+JavaScript
+Project-03
+React 
+Project-04
+Redux => MUI
+Project-05
+Git/GitHub
+Deploy
+cloud AWS
+NodeJS
+Express
+MongoDB
+Project-06 (Major Project)
+NextJS
+
+=================================================
+Date: 18/11/2025
+=================================================
+=> Install the vscode
+https://code.visualstudio.com/download
+
+=> Vscode extension
+Material Icon Theme
+Auto Close Tag
+Code Spell Checker
+Live Server
+ES7+ React/Redux/React-Native snippets
+ES7 React/Redux/GraphQL/React-Native snippets
+ESLint
+npm Intellisense
+Prettier - Code formatter
+Simple React Snippets
+Tailwind CSS IntelliSense
+
+HTML => Hyper Text Markup Language
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is a paragraph tag 🤣</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
