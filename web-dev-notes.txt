@@ -43,6 +43,9 @@ Prettier - Code formatter
 Simple React Snippets
 Tailwind CSS IntelliSense
 
+HTML — HyperText Markup Language
+HTML is the standard markup language used to create web pages. It defines the structure of a webpage using elements (tags) like <html>, <head>, <body>, <p> etc.
+
 HTML => Hyper Text Markup Language
 <!DOCTYPE html>
 <html lang="en">
@@ -56,8 +59,25 @@ HTML => Hyper Text Markup Language
 </body>
 </html>
 
+<!DOCTYPE html>
+Tells the browser that the document is HTML5.
+🔹 <html lang="en">
+Root element of the page.
+lang="en" means the page is in English.
 
+🔹 <head>
+Contains metadata (information about the page):
+<meta charset="UTF-8"> → supports all characters including emojis 🤣
+<meta name="viewport" ...> → makes the page responsive on mobile
+<title> → title shown in browser tab
 
+🔹 <body>
+Everything you see on the webpage goes inside the body.
+
+🔹 <p>
+Paragraph tag — displays text.
+👉 Output of your code:
+This is a paragraph tag 🤣
 
 
 
