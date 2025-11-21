@@ -79,9 +79,28 @@ Paragraph tag — displays text.
 👉 Output of your code:
 This is a paragraph tag 🤣
 
+=================================
+Date: 19/11/2025
+=================================
+1. Placeholder.com (Custom size)
+https://via.placeholder.com/300
+https://via.placeholder.com/600x300
+https://via.placeholder.com/400x200?text=Demo+Image
 
+🔹 2. DummyImage.com (More customization)
+https://dummyimage.com/300x200/000/fff
+https://dummyimage.com/600x400/ff6600/ffffff&text=Sample
 
+🔹 3. Lorem Picsum (Random real photos)
+https://picsum.photos/300
+https://picsum.photos/600/400
+https://picsum.photos/id/237/400/300
 
+🔹 4. Placeholder for profile pictures
+https://i.pravatar.cc/150
+https://i.pravatar.cc/200?img=5
+
+=================================
 
 
 
