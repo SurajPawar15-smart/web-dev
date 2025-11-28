@@ -1,5 +1,5 @@
 =================================================
-Date: 17/11/2025
+Date: 17/11/2025 Attendance-Done
 =================================================
 => Web Development
 Full Stack => MERN Stack
@@ -25,7 +25,7 @@ Project-06 (Major Project)
 NextJS
 
 =================================================
-Date: 18/11/2025
+Date: 18/11/2025 Attendance-Done
 =================================================
 => Install the vscode
 https://code.visualstudio.com/download
@@ -80,7 +80,7 @@ Paragraph tag — displays text.
 This is a paragraph tag 🤣
 
 =================================
-Date: 19/11/2025
+Date: 19/11/2025 Attendance-Done
 =================================
 1. Placeholder.com (Custom size)
 https://via.placeholder.com/300
@@ -101,17 +101,40 @@ https://i.pravatar.cc/150
 https://i.pravatar.cc/200?img=5
 
 =================================
+Date: 19/11/2025 Attendance-Done
+=================================
+
+<!--Multimedia tags -image,audio,video-->
+
+<!--<h1>Hello Class</h1>-->
 
 
+<img src="./media/image.jpg" alt="" width="300px" >
+<img >
+
+<video src="./media/2025-06-25 12-30-29.mkv " width="300px" controls 
+muted 
+autoplay
+loop
+poster="./media/web_development.jpg" 
+>
+</video>
+
+<video src="./media/2025-06-25 12-30-29.mkv " width="300px" controls 
+muted 
+poster="./media/web_development.jpg" 
+>
+</video>
 
 
+<audio src="./media/groovy-vibe-423152.mp3" 
+controls 
+muted 
+autoplay
+>
+</audio>
 
-
-
-
-
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3-vr6wK59sc?si=-FG0qhp99uJyjknF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
