@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>My Form Documents</title>
+    </head>
+    <body>
+
+        <form action="./form.html" method="post">
+
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname" placeholder="First Name"
+                required>
+            <br><br>
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname" placeholder="Last Name"
+                required>
+            <br><br>
+
+            <label>Gender</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br><br>
+
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date">
+            <br><br>
+
+            <label for="time">Time</label>
+            <input type="time" name="time" id="time">
+            <br><br>
+
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="18" max="50">
+            <br><br>
+
+            <label for="address">Address</label>
+            <textarea name="address" id="address" cols="30" rows="5"></textarea>
+            <br><br>
+
+            <label for="language">Select Language</label>
+            <select name="language" id="language">
+                <option value="english">English</option>
+                <option value="hindi">Hindi</option>
+                <option value="marathi">Marathi</option>
+                <option value="urdu">Urdu</option>
+            </select>
+            <br><br>
+
+            <input type="checkbox" name="agree" id="agree">
+            <label for="agree">I agree with the terms and conditions</label>
+            <br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </form>
+
+    </body>
+</html>

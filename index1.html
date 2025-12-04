@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>My Audio and video tags</title>
+    </head>
+    <body>
+        <!-- Multimedia tags - image, audio, video -->
+        <!-- <h1>Hello Class</h1> -->
+
+        <!-- Image -->
+        <img src="./media/image.jpg" alt="Sample Image" width="300px">
+
+        <!-- Empty image placeholder -->
+        <img src alt="Empty Image Tag">
+
+        <!-- Video with autoplay, loop, muted, poster -->
+        <video
+            src="./media/2025-06-25 12-30-29.mkv"
+            width="300px"
+            controls
+            muted
+            autoplay
+            loop
+            poster="./media/web_development.jpg">
+        </video>
+
+        <!-- Video without autoplay -->
+        <video
+            src="./media/2025-06-25 12-30-29.mkv"
+            width="300px"
+            controls
+            muted
+            poster="./media/web_development.jpg">
+        </video>
+
+        <!-- Audio -->
+        <audio
+            src="./media/groovy-vibe-423152.mp3"
+            controls
+            muted
+            autoplay>
+        </audio>
+
+        <!-- YouTube iframe -->
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/3-vr6wK59sc?si=-FG0qhp99uJyjknF"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+    </body>
+</html>

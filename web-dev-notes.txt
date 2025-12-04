@@ -1,5 +1,6 @@
 =================================================
 Date: 17/11/2025 Attendance-Done
+Introduction to web Development
 =================================================
 => Web Development
 Full Stack => MERN Stack
@@ -26,6 +27,7 @@ NextJS
 
 =================================================
 Date: 18/11/2025 Attendance-Done
+VSCode & HTML full Introduction
 =================================================
 => Install the vscode
 https://code.visualstudio.com/download
@@ -81,6 +83,7 @@ This is a paragraph tag 🤣
 
 =================================
 Date: 19/11/2025 Attendance-Done
+HTML Tags Explained from scratch
 =================================
 1. Placeholder.com (Custom size)
 https://via.placeholder.com/300
@@ -100,60 +103,289 @@ https://picsum.photos/id/237/400/300
 https://i.pravatar.cc/150
 https://i.pravatar.cc/200?img=5
 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>This is a paragraph tag 🤣</p>
+    <br />
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus possimus
+      quam maiores iste! Temporibus aliquam atque animi delectus possimus id.
+    </p>
+    <h1>This is the heading-1 tag</h1>
+    <hr />
+    <h2>This is the heading-2 tag</h2>
+    <h3>This is the heading-3 tag</h3>
+    <h4>This is the heading-4 tag</h4>
+    <h5>This is the heading-5 tag</h5>
+    <h6>This is the heading-6 tag</h6>
+
+    <pre>
+Lorem ipsum dolor 
+        sit 
+        amet 
+        consectetur.
+    </pre>
+<hr>
+    <ol type="A">
+      <li>Html</li>
+      <li>css</li>
+      <li>JS</li>
+      <li>TS</li>
+    </ol>
+    <ul type="circle">
+      <li>Python</li>
+      <li>Java</li>
+      <li>NodeJS</li>
+      <li>Ruby</li>
+    </ul>
+    <hr>
+    <marquee behavior="" direction="left">Think, create ,share and grow together...!!!</marquee>
+    <hr>
+    <img src="./media/bean.png" alt="showing the world">
+    <img src="https://picsum.photos/300" alt="my personal">
+    <hr>
+    <a href="https://www.google.com/">Google</a>
+    <a href="https://in.search.yahoo.com/" target="_blank">Google</a>
+
+  </body>
+</html>
+
 =================================
-Date: 19/11/2025 Attendance-Done
+Date: 20/11/2025 Attendance-Done
+HTML Image ,List and Anchor Tags Explained
+=================================
+all in above code
+
+=================================
+Date: 21/11/2025 Attendance-Done
+HTML Multimedia Tags | Learn Audio, Video & Embed Tags
+================================
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>My Audio and video tags</title>
+    </head>
+    <body>
+        <!-- Multimedia tags - image, audio, video -->
+        <!-- <h1>Hello Class</h1> -->
+
+        <!-- Image -->
+        <img src="./media/image.jpg" alt="Sample Image" width="300px">
+
+        <!-- Empty image placeholder -->
+        <img src alt="Empty Image Tag">
+
+        <!-- Video with autoplay, loop, muted, poster -->
+        <video
+            src="./media/2025-06-25 12-30-29.mkv"
+            width="300px"
+            controls
+            muted
+            autoplay
+            loop
+            poster="./media/web_development.jpg">
+        </video>
+
+        <!-- Video without autoplay -->
+        <video
+            src="./media/2025-06-25 12-30-29.mkv"
+            width="300px"
+            controls
+            muted
+            poster="./media/web_development.jpg">
+        </video>
+
+        <!-- Audio -->
+        <audio
+            src="./media/groovy-vibe-423152.mp3"
+            controls
+            muted
+            autoplay>
+        </audio>
+
+        <!-- YouTube iframe -->
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/3-vr6wK59sc?si=-FG0qhp99uJyjknF"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+    </body>
+</html>
+
+=================================
+Date: 26/11/2025 Attendance-Done
+Learn HTML Form Tags
+=================================
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>My Form Documents</title>
+    </head>
+    <body>
+
+        <form action="./form.html" method="post">
+
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname" placeholder="First Name"
+                required>
+            <br><br>
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname" placeholder="Last Name"
+                required>
+            <br><br>
+
+            <label>Gender</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br><br>
+
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date">
+            <br><br>
+
+            <label for="time">Time</label>
+            <input type="time" name="time" id="time">
+            <br><br>
+
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="18" max="50">
+            <br><br>
+
+            <label for="address">Address</label>
+            <textarea name="address" id="address" cols="30" rows="5"></textarea>
+            <br><br>
+
+            <label for="language">Select Language</label>
+            <select name="language" id="language">
+                <option value="english">English</option>
+                <option value="hindi">Hindi</option>
+                <option value="marathi">Marathi</option>
+                <option value="urdu">Urdu</option>
+            </select>
+            <br><br>
+
+            <input type="checkbox" name="agree" id="agree">
+            <label for="agree">I agree with the terms and conditions</label>
+            <br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </form>
+
+    </body>
+</html>
+
+=================================
+Date: 27/11/2025 Attendance-Done
+HTML Form Method and Semantic Tag Explained
 =================================
 
-<!--Multimedia tags -image,audio,video-->
 
-<!--<h1>Hello Class</h1>-->
+=================================
+Date: 28/11/2025 Attendance-Done
+HTML Table Tag Explained | Final HTML Class
+=================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
 
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            border: 2px solid red;
+        }
 
-<img src="./media/image.jpg" alt="" width="300px" >
-<img >
+        th, td {
+            border: 1px solid red;
+            padding: 10px;
+            text-align: center;
+        }
 
-<video src="./media/2025-06-25 12-30-29.mkv " width="300px" controls 
-muted 
-autoplay
-loop
-poster="./media/web_development.jpg" 
->
-</video>
+        tfoot td {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
 
-<video src="./media/2025-06-25 12-30-29.mkv " width="300px" controls 
-muted 
-poster="./media/web_development.jpg" 
->
-</video>
+    <table>
+        <thead>
+            <tr>
+                <th>Sr.No</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
 
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Suraj</td>
+                <td>Pawar</td>
+                <td>80</td>
+            </tr>
 
-<audio src="./media/groovy-vibe-423152.mp3" 
-controls 
-muted 
-autoplay
->
-</audio>
+            <tr>
+                <td>2</td>
+                <td>Pranay</td>
+                <td>Pawar</td>
+                <td>90</td>
+            </tr>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3-vr6wK59sc?si=-FG0qhp99uJyjknF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <tr>
+                <td>3</td>
+                <td>Samir</td>
+                <td>Singh</td>
+                <td>100</td>
+            </tr>
+        </tbody>
 
+        <tfoot>
+            <tr>
+                <td colspan="4" style="text-align: center;">The End</td>
+            </tr>
+        </tfoot>
+    </table>
 
+</body>
+</html>
 
+=================================
+Date: 28/11/2025 Attendance-Done
+CSS Introduction + CSS Types + Selectors
+=================================
+CSS => syntax
+selector{ property : value;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+=> Type of css:
+External css : external file (link)
+Internal css : head > style tag
+Inline css : tag > attribute style
 
 
 
