@@ -387,6 +387,33 @@ External css : external file (link)
 Internal css : head > style tag
 Inline css : tag > attribute style
 
+=> CSS selector
+simple selector
+universal selector
+group selector
+combinator selector
+pseudo class selector
+pseudo element selector
+attribute selector
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
